@@ -71,12 +71,12 @@ footer {
 aside {
     width: 20em;
     text-align: center;
-    
-}
-
-aside h2 {
     position: relative;
-    top: 70px;
+}
+aside h2 {
+    position: absolute;
+    top: 47px;
+    left: 100px;
 }
 main p {
     padding: 1rem;
