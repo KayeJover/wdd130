@@ -69,7 +69,9 @@ main img {
     float: right;
 }
 aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
+    position: relative;
+    top: 70px;
+}
+main p {
+    padding: 1rem;
 }
