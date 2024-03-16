@@ -57,13 +57,21 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
-    top: 20%;
-    left: 50%;
-    text-align: center;
-    width: 90%;
+    bottom: 100%;
+    left: 5%;
+    width: 100%;
     transform: translate(-50%, -50%);
+    transform:scale(3);
+    max-width: 70%;
+    font-size:10px;
+    
     background-color: rgba(10, 1, 1, 0.7);
-
+    text-align: center;
+    
+    margin: 40px;
+    color:#82d4bb
+    
+    
 
 }
 
@@ -86,6 +94,7 @@ article img {
     left: 100%;
     top: 10%;
 } 
+
 section {
     padding: 60px;
     text-align: left;
