@@ -9,83 +9,117 @@
     --paragraph-font: "Merriweather", serif;
 
     --nav-background-color: #272932;
-    --nav-link-color: #a49966;
+    --nav-link-color: #272932;
     --nav-hover-link-color: #82d4bb;
     --nav-hover-background-color: #8bbeb2;
 
 }
 
-
-
-
-
-body {
-    font-family: var(--paragraph-font);
-    color: var(--primary-color);
+body, h1, h2, p {
     margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
+    line-height: 1.6;
 }
 header {
-    background-color: var(--nav-background-color);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: white;
+    
 }
-nav {
-    display: flex;
-    gap: 20px;
+header img {
+    height: auto;
+    width: 20%;
+}
+header nav{
+    margin: 50px;
+    
 }
 nav a {
     color: var(--nav-link-color);
     text-decoration: none;
+    margin: 5px;
+    
 }
-
 nav a:hover {
     color: var(--nav-hover-link-color);
-}
 
-main {
-    padding: 20px;
 }
-footer {
-    background-color: var(--nav-background-color);
-    color: var(--nav-link-color);
-    text-align: center;
-    padding: 20px;
-}
-
-.hero {
+.hero{
     position: relative;
     overflow: hidden;
 }
-
 .hero img {
     display: block;
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin: auto;
+    
 }
 
 .hero h1 {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-    color: white; 
-    font-family: var(--heading-font);
     text-align: center;
-    width: 80%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(10, 1, 1, 0.7);
+
+
 }
 
-/* Styling the article */
-.hero article {
+article {
     position: absolute;
-    top: 50%;
-    right: 50px;
-    transform: translate(-50%, -50%);
-    z-index: 1; /* Ensure the article is above the image */
-    background-color: rgba(0, 0, 0, 0.5); /* Example background color with opacity */
-    padding: 20px; /* Adjust as needed */
-    max-width: 80%; /* Adjust as needed */
+    top: 30%;
+    left: 30%;
+    transform:scaleX(1);
+    max-width:40%;
+    background-color: rgba(200, 200, 200, 0.6);
+    padding: 10px;
+    font-size: 10px;
+    color: var(--nav-link-color);
+    text-align: left;
+    
 }
+article img {
+    float: right;
+    max-width: 40%;
+    left: 100%;
+    top: 10%;
+} 
+section {
+    padding: 60px;
+    text-align: left;
+}
+  
+section img {
+    max-width: 50%;
+    height: auto;
+ }
+h2 {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+h3 {
+    font-size: 15px;
+
+}
+
+footer {
+    text-align:  left;
+    padding: 50px ;
+}
+  
+footer p {
+    font-size: 10px;
+}
+  
+.sociallinks a {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.sociallinks img {
+    height: 30px;
+    width: auto;
+}
+  
