@@ -19,7 +19,7 @@ nav {
 }
 nav a {
     display: block;
-    padding: 0.5rem;
+    padding: 1rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
@@ -35,27 +35,29 @@ img {
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-p {
-    padding: 10px;
+    box-shadow:  0 0 30px gray;
 }
 
+
 main {
-    max-width: 840px;
+    max-width: 700px;
 }
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
 aside img {
-    width: 200px;
+    width: 250px;
     height: auto;
+}
+aside p {
+    padding: 1rem;
+    text-align: left;
 }
 main img {
     width: 150px;
@@ -64,15 +66,25 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin:  2rem 1rem;
 }
+main h1{
+    border-bottom: 1px solid rgba(0, 0, 255, 0.493);
+    padding:20px;
+}
+main p{
+    margin: 1rem;
+}
+
 
 p { padding: 0;
 }
 footer {
-    margin-top: 15px;
+    padding:50px;
+    margin-top: 20px;
     border-top: 1px solid #000;
-    text-align: center;    
+    text-align: center;
+        
 }
 /* Class Selectors*/
 .box {
@@ -80,13 +92,14 @@ footer {
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
     background-color: #ddd;
-    color: #000;
+    color: #272932;
 }
 aside {
     width: 20em;
     text-align: center;
     position: relative;
     top: 100%;
+
 }
 aside h2 {
     position: absolute;
@@ -95,11 +108,12 @@ aside h2 {
 }
 
 main p {
-    padding: 1rem;
+    padding: 10px;
+    
 }
 header, .grid, footer {
     max-width: 100%;
-    margin: 0 auto;
+    margin: 50px;
 }
 .grid {
     display: grid;
@@ -109,14 +123,12 @@ main {
     margin: 1rem;
     grid-column: 2;
     float: right;
-
 }
 aside {
     width: 20rem;
     position: relative;
     grid-column: 1/2;
     grid-row: 1/2;
+    top: 10px;
     
-
 }
-
