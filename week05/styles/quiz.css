@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Merriweather, Roboto, serif;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+header {
+    margin: 0 auto;
+    width: 650px;
+    
+}
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: left;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display:grid;
+}
+
+label, input, button, select, textarea {
+    font-family: Roboto, Ariel, san-serif;
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+input, select, textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+h2 {
+    margin:20px;
+    text-align: left;
+    font-weight: lighter;
+    font-size:medium;
+    background-color: rgba(0, 0, 0, 0.801);
+    padding: 15px;
+    color: white; 
+
+}
+label[for="q1"] {
+    padding:20px;
+}
+.number {
+    color: navy; /* Set the color of the number to blue */
+    
+}
+
+label[for="q2"]{
+    padding: 20px;
+}
+label[for="q3"]{
+    padding: 20px;
+}
+label[for="q4"]{
+    padding: 10px;
+}
