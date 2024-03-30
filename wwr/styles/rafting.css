@@ -24,7 +24,7 @@ body, h1, h2, p {
 header {
     margin: 1rem auto;
 	display: grid;
-	grid-template-columns: 100px 1fr 2fr;
+	grid-template-columns: 120px 1fr 2fr;
 	align-items: center;
 	border-bottom: 1px solid #ccc;
 	max-width: 1000px;
@@ -36,7 +36,7 @@ header img {
     width: 250px;
 }
 header nav{
-    margin: 50px;
+    margin: 10px;
     
 }
 nav a {
@@ -64,15 +64,15 @@ nav a:hover {
 .hero h2 {
     position: absolute;
     bottom: 100%;
-    left: 5%;
+    right: 1%;
     width: 100%;
     transform: translate(-50%, -50%);
-    transform:scale(3);
-    max-width: 70%;
+    transform:scale(2);
     font-size:10px;
     background-color: rgba(19, 2, 2, 0.7);
     text-align: center;
     margin: 40px;
+    margin-right: auto;
     color: var(--accent1-color)
 
 }
@@ -92,8 +92,6 @@ article {
 article img {
     float: right;
     max-width: 40%;
-    
-    
 } 
 
 section {
@@ -128,8 +126,6 @@ section h2 {
     width:200px;
     padding:40px;
     color: #686141;
-
-    
 }
  section h3 {
     font-size: 20px;
@@ -140,9 +136,6 @@ section h2 {
     padding:10px;
     max-width:40%;
     color: #686141;
-
-    
-      
 }
 section p{
     margin:50px;
@@ -172,10 +165,11 @@ footer p {
 	height: auto;
 }
 
-h1 {
+ h1 {
 	font-size: 2rem;
 	font-family: Acme, Arial, sans-serif;
     text-align: right;
+    
 }
 
 nav {
@@ -203,4 +197,93 @@ nav {
 	font-weight: 700;
 	text-decoration: underline;
 }
+/* Contact Us*/
 
+.employee-profiles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 200px;
+    width: 250px;
+    
+}
+.profile img {
+    width: 100%;
+    border-radius: 50%;
+}
+main h1{
+    text-align: center;
+    padding:10px
+}
+main h2{
+    padding:10px;
+}
+main p{
+    padding:10px;
+    font-style: italic;
+}
+main{
+    margin: 10px;
+    text-align: center;
+}
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display:grid;
+}
+/* Align radio button labels to the left */
+input[type="radio"] {
+    width: 15px;
+    height: 22px;
+    vertical-align: bottom;
+}
+label.radio-label {
+    display: inline-block;
+    text-align: left;
+    margin-right: 100px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 15px;
+    margin-left: 10px; /* Adjust as needed */
+    vertical-align:top;
+
+}
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+button {
+    margin: 2rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+
+}
+fieldset {
+    display:grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+legend{
+    padding: 0.5rem;
+    color:navy;
+    font-size: 1.3em;
+    text-align: center;
+}
